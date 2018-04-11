@@ -32,7 +32,7 @@ def swipe(facebook_id, email, password):
 	longs = np.arange(-117.235, -117.230, 0.0001)
 	LAT = np.random.choice(lats, 1)[0]
 	LONG = np.random.choice(longs, 1)[0]
-	session.update_location(LAT, LON)
+	session.update_location(LAT, LONG)
 	users = iter(session.nearby_users())
 
 	try:
