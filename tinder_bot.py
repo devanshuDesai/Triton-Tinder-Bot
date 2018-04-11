@@ -32,11 +32,10 @@ def swipe(id, email, password):
 	LAT = np.random.choice(lats, 1)[0]
 	LONG = np.random.choice(longs, 1)[0]
 	session.update_location(LAT, LONG)
-	users = iter(session.nearby_users())
+	users = session.nearby_users()
 
 	try:
-		while True:
-			user = next(users)
+		for user in users:
 			if np.random.choice(2, 1, p=[0.1, 0.9])[0]:
 				user.like()
 				print('Liked {}'.format(user.name))
