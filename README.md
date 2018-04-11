@@ -18,7 +18,10 @@ The bot can be used in three easy steps:
 * This package requires a Python 3.6+ installation on your computer. All the required packages for this script are installed by running the following command on your Terminal:
 
   ```
-  pip install numpy pynder robobrowser
+  pip install numpy robobrowser
+  ```
+  ```
+  pip install git+https://github.com/charliewolf/pynder
   ```
 
 * You will need to create a real/fake Tinder account with a Facebook **email address** and **password**. 
