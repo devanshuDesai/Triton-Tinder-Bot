@@ -28,7 +28,7 @@ The bot can be used in three easy steps:
   [Find my FB ID](https://findmyfbid.com/) - Facebook ID Finder
 
 
-## Security Note
+### Security Note
 
 This is a rather simple script and there is no way for your email address or password to be accessed by anyone except you. That said, it is justified to be paranoid and hence I suggest using a throwaway email address and password through a temporary email service provider.
 
