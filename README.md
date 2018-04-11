@@ -82,3 +82,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 Please report any bugs/fixes/improvements that you find. I am listening and eager to make this library as functional and easy-to-use as possible.
 
+This bot is not affiliated or endorsed by The Reagents of University of California in any way.
