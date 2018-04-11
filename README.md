@@ -27,6 +27,9 @@ The bot can be used in three easy steps:
 * You will need to create a real/fake Tinder account with a Facebook **email address** and **password**. 
 Here's a website that provides temporary:
   [Guerrila Mail](https://www.guerrillamail.com/) - Temporary Email Address Generator
+  
+  #### Note:
+    Tinder is known to block new accounts from exotic email addresses like those issued by the above service. If you experience a **Request Error 403**, try using a **Gmail email address** to create your account. 
 
 * You will also need to find the Facebook ID for your account. 
 This is a very easy and can be done by copy-pasting your profile URL at the following link:
