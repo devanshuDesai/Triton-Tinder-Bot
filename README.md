@@ -8,7 +8,7 @@ The bot can be used in three easy steps:
 
 1. Create a new real/fake ID on Tinder using **Facebook**, or use a pre-existing ID. (Do not forget to add UC San Diego as the current school on the profile)
 
-2. Get the **Facebook ID** for the Facebook account linked with the Tinder account that you plan on using with the bot.
+2. Get the **Facebook ID** for the Facebook account linked with the Tinder account that you plan on using with the bot. (Refer to 'Prerequisites' to see how to get this)
 
 3. Import the script ```tinder-bot.py``` and pass **facebook_id, email and password** to the function swipe() and run your Python script. (Preferably, try to run multiple Python scripts simultaneously with different Tinder accounts to maximize the odds for UCSD to win).
 
