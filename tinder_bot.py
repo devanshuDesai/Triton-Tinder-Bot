@@ -24,10 +24,9 @@ def get_access_token(email, password):
     return access_token
 
 
-def swipe(facebook_id, email, password):
-	facebook_auth_token = get_access_token(email, password)
-
-	session = pynder.Session(facebook_id, facebook_auth_token)
+def swipe(id, email, password):
+	auth_token = get_access_token(email, password)
+	session = pynder.Session(facebook_id = id, facebook_token = auth_token)
 	lats = np.arange(32.882, 32.884, 0.0001)
 	longs = np.arange(-117.235, -117.230, 0.0001)
 	LAT = np.random.choice(lats, 1)[0]
