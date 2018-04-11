@@ -10,7 +10,7 @@ The bot can be used in three easy steps:
 
 2. Get the **Facebook ID** for the Facebook account linked with the Tinder account that you plan on using with the bot.
 
-3. Import the script *tinder-bot.py* and pass *facebook_id, email and password* to the function swipe() and run your Python script. (Preferably, try to run multiple Python scripts simultaneously with different Tinder accounts to maximize the odds for UCSD to win).
+3. Import the script ```tinder-bot.py``` and pass **facebook_id, email and password** to the function swipe() and run your Python script. (Preferably, try to run multiple Python scripts simultaneously with different Tinder accounts to maximize the odds for UCSD to win).
 
 
 ### Prerequisites
@@ -21,10 +21,12 @@ The bot can be used in three easy steps:
   pip install numpy pynder robobrowser
   ```
 
-* You will need to create a real/fake Tinder account with a Facebook **email address** and **password**. Here's a website that provides temporary:
+* You will need to create a real/fake Tinder account with a Facebook **email address** and **password**. 
+Here's a website that provides temporary:
   [Guerrila Mail](https://www.guerrillamail.com/) - Temporary Email Address Generator
 
-* You will also need to find the Facebook ID for your account. This is a very easy and can be done by copy-pasting your profile URL at the following link:
+* You will also need to find the Facebook ID for your account. 
+This is a very easy and can be done by copy-pasting your profile URL at the following link:
   [Find my FB ID](https://findmyfbid.com/) - Facebook ID Finder
 
 
