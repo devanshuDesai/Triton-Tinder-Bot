@@ -62,7 +62,9 @@ Open the script with the following command:
 open tinder_bot.py
 ```
 
-Now, modify ```fb_id```, ```email``` and ```password``` variables with respective values for your Tinder account and run the script using the following command:
+Modify ```fb_id```, ```email``` and ```password``` variables with respective values for your Tinder account and **save** it. 
+
+Now, run the script using the following command:
 
 ```
 python tinder_bot.py
