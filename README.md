@@ -28,8 +28,7 @@ The bot can be used in three easy steps:
 Here's a website that provides temporary email addresses:
   [Guerrila Mail](https://www.guerrillamail.com/) - Temporary Email Address Generator
   
-  #### Note:
-    Tinder is known to block new accounts from exotic email addresses like those issued by the above service. If you experience a **Request Error 403**, try using a **Gmail email address** to create your account. 
+  **Note:** Tinder is known to block new accounts from exotic email addresses like those issued by the above service. If you experience a **Request Error 403**, try using a **Gmail email address** to create your account. 
 
 
 * You will also need to find the Facebook ID for your account. 
