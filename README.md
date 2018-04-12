@@ -1,4 +1,4 @@
-# Triton-Tinder-Bot
+# Triton Tinder Bot
 
 A Tinder bot to Swipe Right for Cardi B.
 
