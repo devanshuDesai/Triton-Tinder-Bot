@@ -2,7 +2,7 @@
 #############################################################################################################
 				'''Enter Your Credentials Here'''
 	
-id = '123456789123456'		# Find it at https://findmyfbid.com/
+fb_id = '123456789123456'		# Find it at https://findmyfbid.com/
 email = 'khosla2020@gmail.com'	# Enter the email id for the Facebook account linked with your Tinder Account
 password = 'hunter2'		# Password for your Facebook Account
 
@@ -35,9 +35,9 @@ def get_access_token(email, password):
     return access_token
 
 
-def swipe(id, email, password):
+def swipe(fb_id, email, password):
 	auth_token = get_access_token(email, password)
-	session = pynder.Session(facebook_id = id, facebook_token = auth_token)
+	session = pynder.Session(facebook_id = fb_id, facebook_token = auth_token)
 	lats = np.arange(32.882, 32.884, 0.0001)
 	longs = np.arange(-117.235, -117.230, 0.0001)
 	LAT = np.random.choice(lats, 1)[0]
@@ -57,4 +57,4 @@ def swipe(id, email, password):
 	except:
 		print('Ran out of users to swipe on :(')
 
-swipe(id, email, password)	# Comment this line out if you plan on using this script as a module inside your script
+swipe(fb_id, email, password)	# Comment this line out if you plan on using this script as a module inside your script
