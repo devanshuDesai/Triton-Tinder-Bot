@@ -31,6 +31,7 @@ Here's a website that provides temporary email addresses:
   #### Note:
     Tinder is known to block new accounts from exotic email addresses like those issued by the above service. If you experience a **Request Error 403**, try using a **Gmail email address** to create your account. 
 
+
 * You will also need to find the Facebook ID for your account. 
 This is a very easy and can be done by copy-pasting your profile URL at the following link:
   [Find my FB ID](https://findmyfbid.com/) - Facebook ID Finder
@@ -38,7 +39,7 @@ This is a very easy and can be done by copy-pasting your profile URL at the foll
 
 ### Security Note
 
-This is a rather simple script and there is no way for your email address or password to be accessed by anyone except you. That said, it is justified to be paranoid and hence, I suggest using a throwaway email address and password through a temporary email service provider.
+This is a rather simple script and there is no way for your email address or password to be accessed by anyone except you. That said, it is justified to be paranoid and hence, I suggest using a secondary email address and password for this script.
 
 ### Installing
 
