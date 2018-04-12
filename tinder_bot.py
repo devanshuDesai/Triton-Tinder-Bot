@@ -1,3 +1,14 @@
+
+#############################################################################################################
+				'''Enter Your Credentials Here'''
+	
+id = '123456789123456'		# Find it at https://findmyfbid.com/
+email = 'khosla2020@gmail.com'	# Enter the email id for the Facebook account linked with your Tinder Account
+password = 'hunter2'		# Password for your Facebook Account
+
+#############################################################################################################
+
+
 import pynder
 import time
 import numpy as np
@@ -46,5 +57,4 @@ def swipe(id, email, password):
 	except:
 		print('Ran out of users to swipe on :(')
 
-
-
+swipe(id, email, password)	# Comment this line out if you plan on using this script as a module inside your script
