@@ -7,7 +7,7 @@ A Tinder bot to Swipe Right for Cardi B.
 ### Q. But.. But... This bot is going to get us disqualified!?
 A. This bot extensively uses randomization wherever possible. Specifically, there are are three areas where decisions are made randomly:
 
-* **Choosing your GPS co-ordinates :** The guidelines require the user to swipe on campus. Thus, the bot **randomly** chooses a pair of latitude and longitude to spoof your location from a possible combination of **100 million possible co-ordinates on campus**.
+* **Choosing your GPS co-ordinates :** The guidelines require the user to swipe on campus. Thus, the bot **randomly** chooses a pair of latitude and longitude to spoof your location from a possible combination of **1000 possible co-ordinates on campus**.
 
 * **Choosing when to swipe right :** The bot uses a weighted probablity distribution model to "know" when to swipe right. As a result, the bot **randomly swipes right on 9/10 users** while swiping left on others.
 
