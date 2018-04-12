@@ -84,8 +84,15 @@ There's no limit on the number of scripts that you can create as long as you can
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Known Issues
+
+This script is known to throw a 403 Error when you use a throwaway email address like: *anbds3@xyz.com*. 
+This occurs because Tinder has built-in security measures to protect it against bots using temporary email addresses like the one I listed above. I am unable to come up with a workaround for this problem in such a short time, which means that you will have to use a large service like Gmail for your account. I am actively looking to resolve this problem, and if you have a solution to this, I'd be glad to merge your solution.
+
 ## Note
 
-Please report any bugs/fixes/improvements that you find. I am listening and eager to make this library as functional and easy-to-use as possible.
+* Please report any bugs/fixes/improvements that you find. I am listening and eager to make this library as functional and easy-to-use as possible.
 
-This bot is not affiliated or endorsed by The Reagents of University of California in any way.
+* I am actively looking to make this script accessible to all. If you can help me set up a simple website where users can enter their email address and password and the bot does the rest, please hit me up.
+
+* This bot is not affiliated or endorsed by The Reagents of University of California in any way.
