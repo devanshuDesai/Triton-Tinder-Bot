@@ -86,7 +86,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Known Issues
 
-This script is known to throw a 403 Error when you use a throwaway email address like: *anbds3@xyz.com*. 
+**This script is known to throw a 403 Error when you use a throwaway email address like: anbds3@xyz.com.**
+
 This occurs because Tinder has built-in security measures to protect it against bots using temporary email addresses like the one I listed above. I am unable to come up with a workaround for this problem in such a short time, which means that you will have to use a large service like Gmail for your account. I am actively looking to resolve this problem, and if you have a solution to this, I'd be glad to merge your solution.
 
 ## Note
