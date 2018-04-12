@@ -25,7 +25,7 @@ The bot can be used in three easy steps:
   ```
 
 * **[OPTIONAL]** You will need to create a real/fake Tinder account with a Facebook **email address** and **password** if you do not have a Tinder already, or want to run multiple bots running simultaneously. 
-Here's a website that provides temporary:
+Here's a website that provides temporary email addresses:
   [Guerrila Mail](https://www.guerrillamail.com/) - Temporary Email Address Generator
   
   #### Note:
