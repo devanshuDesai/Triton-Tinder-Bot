@@ -29,7 +29,7 @@ The bot can be used in three easy steps:
 
 ### Prerequisites
 
-* This package requires a **Python 3.6+** installation on your computer. All the required packages for this script are installed by running the following command on your Terminal:
+* This package requires a **Python 3.6+** installation on your computer. All the required packages for this script are installed by running the following commands in your Terminal:
 
   ```
   pip install numpy robobrowser
