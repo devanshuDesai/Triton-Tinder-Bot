@@ -10,12 +10,12 @@ The bot can be used in three easy steps:
 
 2. Get the **Facebook ID** for the Facebook account linked with the Tinder account that you plan on using with the bot. (Refer to 'Prerequisites' to see how to get this)
 
-3. Import the script ```tinder-bot.py``` and pass **facebook_id, email and password** to the function swipe() and run your Python script. (Preferably, try to run multiple Python scripts simultaneously with different Tinder accounts to maximize the odds for UCSD to win).
+3. Clone the script onto your computer, modify the credentials in the script with your credentials and run the script.
 
 
 ### Prerequisites
 
-* This package requires a Python 3.6+ installation on your computer. All the required packages for this script are installed by running the following command on your Terminal:
+* This package requires a **Python 3.6+** installation on your computer. All the required packages for this script are installed by running the following command on your Terminal:
 
   ```
   pip install numpy robobrowser
@@ -24,7 +24,7 @@ The bot can be used in three easy steps:
   pip install git+https://github.com/charliewolf/pynder
   ```
 
-* You will need to create a real/fake Tinder account with a Facebook **email address** and **password**. 
+* **[OPTIONAL]** You will need to create a real/fake Tinder account with a Facebook **email address** and **password** if you do not have a Tinder already, or want to run multiple bots running simultaneously. 
 Here's a website that provides temporary:
   [Guerrila Mail](https://www.guerrillamail.com/) - Temporary Email Address Generator
   
@@ -50,24 +50,24 @@ git clone https://github.com/devanshuDesai/Triton-Tinder-Bot
 
 ### Usage
 
-Once you have completed the above steps, the Python script is fairly easy to write. In fact, you can literally copy-paste the code below and save it with a name of your choice. For the purpose of this "tutorial", I will save my script as ```my_bot_1.py```.
-
-Copy-paste the following code into ```my_bot_1.py``` and replace ```facebook_id```, ```email``` and ```password``` with the values you created/found in the previous steps.
+Open **Terminal** and navigate to the directory where ```Triton-Tinder-Bot``` is saved:
 
 ```
-from tinder_bot import *
-swipe(facebook_id, email, password)
+cd Triton-Tinder-Bot
 ```
-That is it! Trust me.
 
-Now, save ```my_bot_1.py``` in the same directory as ```tinder_bot.py```.
-
-Open terminal and navigate to the directory where both ```tinder_bot.py``` and ```my_bot_1.py``` are saved and run the bot by typing the following command into Terminal:
+Open the script with the following command: 
 
 ```
-python my_bot_1.py
+open tinder_bot.py
+```
+
+Now, modify ```fb_id```, ```email``` and ```password``` variables with respective values for your Tinder account and run the script using the following command:
+
+```
+python tinder_bot.py
 ````
-
+**Voila!** Your bot should be up and running.
 
 There's no limit on the number of scripts that you can create as long as you can create enough Tinder/Facebook accounts. Bonus points if you have Tinder+ or Tinder Gold as your bot can keep swiping till the end of time.
 
