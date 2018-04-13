@@ -53,7 +53,7 @@ def swipe(fb_id, email, password):
 			else:
 				user.dislike()
 				print('Disliked {}'.format(user.name))
-			time.sleep(np.random.choice(np.arange(5,15), 1)[0])
+			time.sleep(np.random.choice(np.arange(3,7), 1)[0])
 	except:
 		print('Ran out of users to swipe on :(')
 
