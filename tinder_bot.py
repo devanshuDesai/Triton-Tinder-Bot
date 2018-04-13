@@ -1,6 +1,6 @@
 
 #############################################################################################################
-				'''Enter Your Credentials Here'''
+'''					Enter Your Credentials Here					'''
 	
 fb_id = '123456789123456'	# Find it at https://findmyfbid.com/
 email = 'khosla2020@gmail.com'	# Enter the email id for the Facebook account linked with your Tinder Account
