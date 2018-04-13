@@ -11,7 +11,7 @@ A. This bot extensively uses randomization wherever possible. Specifically, ther
 
 * **Choosing when to swipe right :** The bot uses a weighted probablity distribution model to "know" when to swipe right. As a result, the bot **randomly swipes right on 9/10 users** while swiping left on others.
 
-* **Choosing the time between swipes :** After randomly swiping left/right on a user, the bot **randomly waits between 5-15 seconds** before moving to the next user. This gives it a very human feel.
+* **Choosing the time between swipes :** After randomly swiping left/right on a user, the bot **randomly waits between 3-7 seconds** before moving to the next user. This gives it a very human feel.
 
 Admittedly no system can be perfect, but this bot has a reasonable number of safeguards against bot detection systems deployed by Tinder. Besides if you have any suggestions on how to make the bot more human-like, I am listening.
 
