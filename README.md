@@ -112,4 +112,4 @@ This occurs because Tinder has built-in security measures to protect it against 
 
 * I am actively looking to make this script accessible to all. If you can help me set up a simple website where users can enter their email address and password and the bot does the rest, please hit me up.
 
-* This bot is not affiliated or endorsed by The Reagents of University of California in any way.
+* This bot is not affiliated to or endorsed by The Reagents of University of California in any way.
